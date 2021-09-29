@@ -15,6 +15,7 @@ class Transferdata:
 
 def main():
     fi = input("enter your file name :")
+    #enter your token
     access_token= ""
     file = Transferdata(access_token)
     filefrom = fi
